@@ -82,10 +82,4 @@ public class AddMentor extends AppCompatActivity {
         Toast.makeText(this, name + " has been added", Toast.LENGTH_SHORT).show();
         mentorAdded = true;
     }
-    @Override
-    public void onBackPressed()
-    {
-        super.onBackPressed();
-        Intent intent = new Intent(getApplicationContext(), CourseDetails.class);
-    }
 }

@@ -162,11 +162,4 @@ public class CourseDetails extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-    @Override
-    public void onBackPressed()
-    {
-        super.onBackPressed();
-        Intent intent = new Intent(getApplicationContext(), TermDetails.class);
-        startActivity(intent);
-    }
 }
