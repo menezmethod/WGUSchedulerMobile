@@ -38,7 +38,6 @@ public class AddMentor extends AppCompatActivity {
         addMentorPhone = findViewById(R.id.addMentorPhone);
         addMentorEmailAddress = findViewById(R.id.addMentorEmailAddress);
         addMentorFAB = findViewById(R.id.addMentorFAB);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_close);
         addMentorFAB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
